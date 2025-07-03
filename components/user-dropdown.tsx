@@ -22,22 +22,22 @@ export default function UserDropdown() {
         <Button variant="ghost" className="h-auto p-0 hover:bg-transparent">
           <Avatar className="size-8">
             <AvatarImage
-              src="https://raw.githubusercontent.com/origin-space/origin-images/refs/heads/main/exp2/user-02_mlqqqt.png"
+              src="https://avatars.githubusercontent.com/u/72819474?v=4"
               width={32}
               height={32}
               alt="Profile image"
             />
-            <AvatarFallback>KK</AvatarFallback>
+            <AvatarFallback>AB</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="max-w-64 p-2" align="end">
         <DropdownMenuLabel className="flex min-w-0 flex-col py-0 px-1 mb-2">
           <span className="truncate text-sm font-medium text-foreground mb-0.5">
-            Mary P.
+            Abel Banze
           </span>
           <span className="truncate text-xs font-normal text-muted-foreground">
-            mary@askdigital.com
+            abelbartolomeu06@gmail.com
           </span>
         </DropdownMenuLabel>
         <DropdownMenuItem className="gap-3 px-1">
