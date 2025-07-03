@@ -17,7 +17,7 @@ export default function DocsSidebar({ open, onClose }: { open: boolean; onClose:
 
   return (
     <aside
-      className={`fixed inset-y-0 left-0 z-50 w-64 bg-muted/40 border-r transform transition-transform ${open ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
+      className={`fixed inset-y-0 left-0 z-40 w-64 bg-muted/40 border-r transform transition-transform ${open ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
       style={{ height: '100vh' }}
     >
       <div className="flex items-center h-16 px-6 border-b">
