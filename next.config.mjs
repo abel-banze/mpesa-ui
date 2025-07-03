@@ -1,5 +1,4 @@
 const nextConfig = {
-  assetPrefix: "/exp3-static",
   typescript: {
     ignoreBuildErrors: true,
   },

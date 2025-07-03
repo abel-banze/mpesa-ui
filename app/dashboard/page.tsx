@@ -1,10 +1,7 @@
-import type { Metadata } from "next";
+
 import Link from "next/link";
 import UserDropdown from "@/components/user-dropdown";
 
-export const metadata: Metadata = {
-  title: "Experiment 03 - Crafted.is",
-};
 
 import { AppSidebar } from "@/components/app-sidebar";
 import {
